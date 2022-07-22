@@ -12,4 +12,11 @@ public class RomanNumberTest {
 
         assertThat(romanNumber.getRoman()).isEqualTo("I");
     }
+
+    @Test
+    void convert2ToII() {
+        RomanNumber romanNumber = new RomanNumber(2);
+
+        assertThat(romanNumber.getRoman()).isEqualTo("II");
+    }
 }
