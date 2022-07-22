@@ -1,8 +1,7 @@
 package roman;
 
 public class RomanNumber {
-    public RomanNumber(int i) {
-
+    public RomanNumber(int arabicNumber) {
     }
 
     public String getRoman() {
