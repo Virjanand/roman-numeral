@@ -8,12 +8,6 @@ public class RomanNumber {
     }
 
     public String getRoman() {
-        if (arabicNumber == 1) {
-            return "I";
-        }
-        if (arabicNumber == 2) {
-            return "II";
-        }
-        return "III";
+        return "I".repeat(Math.max(0, arabicNumber));
     }
 }
