@@ -1,16 +1,16 @@
 package roman;
 
 public class RomanNumber {
-    private int arabicNumber;
+    private final int arabicNumber;
 
     public RomanNumber(int arabicNumber) {
         this.arabicNumber = arabicNumber;
     }
 
     public String getRoman() {
-        if (arabicNumber == 2) {
-            return "II";
+        if (arabicNumber == 1) {
+            return "I";
         }
-        return "I";
+        return "II";
     }
 }
