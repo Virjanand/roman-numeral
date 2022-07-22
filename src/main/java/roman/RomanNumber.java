@@ -6,6 +6,6 @@ public class RomanNumber {
     }
 
     public String getRoman() {
-        return null;
+        return "I";
     }
 }
